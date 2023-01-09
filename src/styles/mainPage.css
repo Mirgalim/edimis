@@ -1,0 +1,59 @@
+.logo {
+    float: left;
+    width: 80px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .ant-row-rtl .logo {
+    float: right;
+    margin: 16px 0 16px 24px;
+  }
+  .header-menu {
+    color: white;
+  }
+
+.first-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: aqua;
+}
+
+.breadcrumb {
+  color: black;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  margin-left: 30px;
+}
+
+.header-first {
+  width: 100px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-text {
+  color: white;
+  font-size: medium;
+  height: 70px;
+  width: 100px;
+  background-color: red;
+}
+
+.icons {
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-around;
+}
